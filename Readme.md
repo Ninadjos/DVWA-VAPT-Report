@@ -43,35 +43,7 @@ DVWA-VAPT-Report/
 │   ├── DVWA_VAPT_Report.pdf           # PDF version of full report
 │
 ├── Screenshots/                       # Screenshots used in the report
-│   ├── BruteForce/
-│   ├── CommandInjection/
-│   ├── CSRF/
-│   ├── FileInclusion/
-│   ├── FileUpload/
-│   ├── InsecureCAPTCHA/
-│   ├── SQLInjection/
-│   ├── BlindSQLInjection/
-│   ├── WeakSessionIDs/
-│   ├── XSS/
-│   ├── CSPBypass/
-│   ├── JavaScript/
-│   └── OpenRedirect/
-│
-├── Findings/                          # Optional: Markdown per vulnerability
-│   ├── BruteForce.md
-│   ├── CommandInjection.md
-│   ├── CSRF.md
-│   ├── FileInclusion.md
-│   ├── FileUpload.md
-│   ├── InsecureCAPTCHA.md
-│   ├── SQLInjection.md
-│   ├── BlindSQLInjection.md
-│   ├── WeakSessionIDs.md
-│   ├── XSS.md
-│   ├── CSPBypass.md
-│   ├── JavaScript.md
-│   └── OpenRedirect.md
-│
+├── Findings/                          # Optional: Markdown per vulnerability│
 └── Appendices/
     ├── Tools_Used.md                  # List of tools used
     ├── Environment_Config.md          # DVWA setup, PHP/MySQL versions, etc.
