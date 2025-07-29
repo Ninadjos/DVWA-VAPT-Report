@@ -21,4 +21,4 @@ Screenshot:F:\Projects\DVWA\Appendices\Screenshots\low_FileInclusion
 Mitigation Recommendations:
     Restrict file paths using whitelisting.
     Use secure coding practices.
-    Disable URL file access in configs.
+    Disable URL file access in configs. 
