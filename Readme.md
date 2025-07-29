@@ -36,7 +36,6 @@ This repository documents a full-scale Vulnerability Assessment and Penetration 
 ## 📁 Repository Structure
 
 DVWA-VAPT-Report/
-│
 ├── README.md                          # Main project overview
 ├── Report/
 │   ├── DVWA_VAPT_Report.docx          # Word version of full report
