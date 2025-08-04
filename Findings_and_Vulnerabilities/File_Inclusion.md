@@ -16,9 +16,10 @@ Step-by-step details:
     Input: ../../../../etc/passwd
     Server responded with file content.
 
-Screenshot:F:\Projects\DVWA\Appendices\Screenshots\low_FileInclusion
+Screenshot:F:\Projects\DVWA\Screenshots\low_Java injection
 
 Mitigation Recommendations:
     Restrict file paths using whitelisting.
     Use secure coding practices.
     Disable URL file access in configs. 
+    
