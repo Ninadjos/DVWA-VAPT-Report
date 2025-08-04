@@ -36,17 +36,47 @@ This repository documents a full-scale Vulnerability Assessment and Penetration 
 ## 📁 Repository Structure
 
 DVWA-VAPT-Report/
-├── README.md                          # Main project overview
-├── Report/
-│   ├── DVWA_VAPT_Report.docx          # Word version of full report
-│   ├── DVWA_VAPT_Report.pdf           # PDF version of full report
-├── Screenshots/                       # Screenshots used in the report
-├── Findings/                          # Optional: Markdown per vulnerability│
-└── Appendices/
-    ├── Tools_Used.md                  # List of tools used
-    ├── Environment_Config.md          # DVWA setup, PHP/MySQL versions, etc.
-    └── References.md                  # CWE/CVSS links, OWASP Top 10 refs
-
+│
+├── README.md                             # Main project README with summary and links
+│
+├── Report/                               # Final reports in common formats
+│   ├── DVWA_VAPT_Report.docx             # Full professional report (editable)
+│   └── DVWA_VAPT_Report.pdf              # Exported version for sharing
+│
+├── Screenshots/                          # PoC images per vulnerability
+│   ├── BruteForce/
+│   ├── CommandInjection/
+│   ├── CSRF/
+│   ├── FileInclusion/
+│   ├── FileUpload/
+│   ├── InsecureCAPTCHA/
+│   ├── SQLInjection/
+│   ├── BlindSQLInjection/
+│   ├── WeakSessionIDs/
+│   ├── XSS/
+│   ├── CSPBypass/
+│   ├── JavaScript/
+│   └── OpenRedirect/
+│
+├── Findings/                             # One Markdown report per vulnerability
+│   ├── BruteForce.md
+│   ├── CommandInjection.md
+│   ├── CSRF.md
+│   ├── FileInclusion.md
+│   ├── FileUpload.md
+│   ├── InsecureCAPTCHA.md
+│   ├── SQLInjection.md
+│   ├── BlindSQLInjection.md
+│   ├── WeakSessionIDs.md
+│   ├── XSS.md                            # Combined: Reflected, Stored, DOM
+│   ├── CSPBypass.md
+│   ├── JavaScript.md
+│   └── OpenRedirect.md
+│
+├── Appendices/                           # Supporting and technical detail sections
+│   ├── Tools_Used.md                     # Nmap, Burp Suite, WFuzz, etc.
+│   ├── Environment_Config.md             # DVWA setup, server stack, OS info
+│   └── References.md                     # CWE, CVSS, OWASP Top 10 references
 
 
 ---
