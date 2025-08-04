@@ -40,7 +40,6 @@ DVWA-VAPT-Report/
 ├── Report/
 │   ├── DVWA_VAPT_Report.docx          # Word version of full report
 │   ├── DVWA_VAPT_Report.pdf           # PDF version of full report
-│
 ├── Screenshots/                       # Screenshots used in the report
 ├── Findings/                          # Optional: Markdown per vulnerability│
 └── Appendices/
