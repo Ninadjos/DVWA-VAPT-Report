@@ -36,13 +36,10 @@ This repository documents a full-scale Vulnerability Assessment and Penetration 
 ## 📁 Repository Structure
 
 DVWA-VAPT-Report/
-│
 ├── README.md                             # Main project README with summary and links
-│
 ├── Report/                               # Final reports in common formats
 │   ├── DVWA_VAPT_Report.docx             # Full professional report (editable)
 │   └── DVWA_VAPT_Report.pdf              # Exported version for sharing
-│
 ├── Screenshots/                          # PoC images per vulnerability
 │   ├── BruteForce/
 │   ├── CommandInjection/
@@ -57,7 +54,6 @@ DVWA-VAPT-Report/
 │   ├── CSPBypass/
 │   ├── JavaScript/
 │   └── OpenRedirect/
-│
 ├── Findings/                             # One Markdown report per vulnerability
 │   ├── BruteForce.md
 │   ├── CommandInjection.md
@@ -72,7 +68,6 @@ DVWA-VAPT-Report/
 │   ├── CSPBypass.md
 │   ├── JavaScript.md
 │   └── OpenRedirect.md
-│
 ├── Appendices/                           # Supporting and technical detail sections
 │   ├── Tools_Used.md                     # Nmap, Burp Suite, WFuzz, etc.
 │   ├── Environment_Config.md             # DVWA setup, server stack, OS info
